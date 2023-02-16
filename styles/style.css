@@ -130,6 +130,20 @@ header{
         align-items: center;
     }
 
+    .sec-two-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec-two-images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
 
 }
 
