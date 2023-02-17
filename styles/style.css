@@ -222,7 +222,7 @@ header{
 
 .sec-five-img{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 130px;
@@ -269,6 +269,14 @@ header{
         margin-left: 0;
     }
 
+    .sec-four-objects {
+        flex-direction: column;
+    }
+
+    .sec-five-img{
+        flex-direction: column;
+        gap: 50px;
+    }
 
 }
 
