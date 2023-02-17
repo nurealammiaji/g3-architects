@@ -228,6 +228,17 @@ header{
     margin-bottom: 130px;
 }
 
+/* Section Six or Footer Styles */
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
 
 
 /* Responsive Styles */
