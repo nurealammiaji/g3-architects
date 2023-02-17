@@ -210,7 +210,23 @@ header{
 
 /* Section Five Styles */
 
+.sec-five-info{
+    text-align: center;
+}
 
+.sec-five-info h3{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.sec-five-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
 
 
 
