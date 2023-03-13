@@ -50,7 +50,7 @@ header{
 /* Section One Styles */
 
 .header-info{
-    text-align: center; 
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,6 +124,8 @@ header{
 }
 
 .sec-three-info{
+    width: 100%;
+    height: 982px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -144,8 +146,15 @@ header{
     box-shadow: 5px 5px 10px rgba(211, 211, 211, 0.633);
 }
 
+.sec-three-common h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .sec-three-img img{
     width: 100%;
+    height: 982px;
     margin-left: 92px;
 }
 
@@ -200,7 +209,7 @@ header{
     padding: 45px 35px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    transition: width 2s, height 2s, transform 2s;
+    transition: transform 2s;
 }
 
 .sec-four-common:hover{
@@ -234,7 +243,55 @@ header{
     margin-bottom: 130px;
 }
 
-/* Section Six or Footer Styles */
+
+/* Section Six Styles */
+
+.sec-six{
+    text-align: right;
+}
+
+.sec-six h3{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.sec-six-items{
+    margin-top: 85px;
+    margin-bottom: 130px;
+    text-align: right;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.sec-six-common{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(211, 211, 211, 0.633);
+    border: 1px solid #FF900E;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+.sec-six-common h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sec-six-common p{
+    font-weight: 700;
+    font-size: 54px;
+    color: #FF900E;
+}
+
+.sec-six-common:hover{
+    color: #FFFFFF;
+    background-color: red;
+}
+
+
+/* Footer Section Styles */
 
 .footer-text{
     display: flex;
@@ -293,6 +350,10 @@ header{
     .sec-five-img{
         flex-direction: column;
         gap: 50px;
+    }
+
+    .sec-six-items{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
